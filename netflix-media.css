@@ -1,0 +1,152 @@
+@media screen and (min-width:1025px){
+
+}
+
+@media screen and (max-width:991px){
+    h1{
+        font-size: 2.8rem;
+       margin-top: 5px;
+    }
+
+    h4{
+        margin: 28px;
+    }
+
+    p{
+        margin: 23px;
+    }
+
+    .secondary-button{
+        font-size: 23px;
+        width: 190px;
+    }
+}
+
+@media screen and (max-width:767px){
+    nav .logo img{
+        width: 25%;
+    }
+
+    h1{
+        font-size: 2.5rem;
+       margin-top: 5px;
+       text-align: center;
+    }
+
+    p{
+        margin: 20px;
+        text-align: center;
+    }
+
+    h4{
+        text-align: center;
+        margin: 24px;
+    }
+
+    .secondary-button{
+        font-size: 20px;
+        width: 170px;
+        flex-direction:column;
+    }
+
+    body{
+        margin: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    
+    nav .logo img{
+        width: 30%;
+    }
+
+    h1{
+        font-size: 1.5rem;
+       margin-top: 5px;
+       text-align: center;
+    }
+
+    p{
+        margin: 20px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    h4{
+        text-align: center;
+        margin: 24px;
+        font-size: 1.2rem;
+    }
+
+    .button .eng{
+        font-size: 14px;
+        width: 70px;
+        height: 30px;
+    }
+
+    .button .secondary-btn{
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .secondary-button{
+        font-size: 15px;
+        width: 90%;
+        padding-block: 21.7px;
+    }
+
+    .input{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input input{
+        width: 90%;
+        text-align: center;
+    }
+
+    body{
+        margin: 0px 20px;
+    }
+
+    .content-section{
+        flex-direction: column;
+    }
+
+    .content-section img{
+        width: 60%;
+    }
+
+    #tv-imgs{
+        flex-direction: column-reverse;
+    }
+
+    .buttons button{
+        height: 50px;
+        font-size: 1rem;
+         padding-left:15px ;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contect-section{
+        text-align: center;
+    }
+
+    footer p{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contect-num{
+        justify-content: center;
+        padding: 20px;
+    }
+}
